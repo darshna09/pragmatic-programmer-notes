@@ -11,7 +11,7 @@ Chapter-wise notes, code snippets, and practical insights from "The Pragmatic Pr
 **Running the code snippets**
 
 ```bash
-python src/pragmatic/topic_9_dry/dry_example.py
+python src/pragmatic/<topic>/<file_name>.py
 ```
 
 **Add New Dependencies**
