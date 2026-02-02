@@ -35,3 +35,17 @@ This topic explores code duplication, DRY violations, and when duplication is in
 Combining them would reduce clarity and increase coupling.
 
 This duplication is intentional and correct.
+
+## Duplication in Documentation
+
+**Before:**
+
+📄 [doc_duplication.py](./doc_duplication.py)
+
+Comments restated what the code already made obvious, adding no new information.
+
+**After:**
+
+📄 [doc_duplication_fixed.py](./doc_duplication_fixed.py)
+
+Removed redundant comments and relied on clearer function and variable names to make the code self-explanatory.
