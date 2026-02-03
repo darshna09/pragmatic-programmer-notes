@@ -20,3 +20,8 @@ python src/pragmatic/<topic>/<file_name>.py
 pip install <library>
 pip freeze > requirements.txt
 ```
+
+**Error: pyenv: version `3.14.2' not installed**
+
+- See all available versions with `pyenv install --list`
+- If the version you need is missing, try upgrading pyenv: `brew update && brew upgrade pyenv`

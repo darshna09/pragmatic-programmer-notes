@@ -49,3 +49,16 @@ Comments restated what the code already made obvious, adding no new information.
 📄 [doc_duplication_fixed.py](./doc_duplication_fixed.py)
 
 Removed redundant comments and relied on clearer function and variable names to make the code self-explanatory.
+
+## DRY Violation in Data
+
+- File 1: 📄 [doc_data.py](./doc_data.py)
+- File 2: 📄 [doc_data_fixed.py](./doc_data_fixed.py)
+
+| Aspect                  | File 1        | File 2                     |
+| ----------------------- | ------------- | -------------------------- |
+| Exposes internals       | ✅            | ❌                          |
+| Can become inconsistent | ✅            | ❌                          |
+| DRY violation           | ❌ accidental | ⚠️ intentional & controlled |
+| Follows UAP             | ❌            | ✅                          |
+| Safe to evolve          | ❌            | ✅                          |
