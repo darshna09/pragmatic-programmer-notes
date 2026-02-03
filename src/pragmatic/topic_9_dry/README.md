@@ -52,8 +52,8 @@ Removed redundant comments and relied on clearer function and variable names to 
 
 ## DRY Violation in Data
 
-- File 1: 📄 [doc_data.py](./doc_data.py)
-- File 2: 📄 [doc_data_fixed.py](./doc_data_fixed.py)
+- File 1: 📄 [dry_data.py](./dry_data.py)
+- File 2: 📄 [dry_data_fixed.py](./dry_data_fixed.py)
 
 | Aspect                  | File 1        | File 2                     |
 | ----------------------- | ------------- | -------------------------- |
